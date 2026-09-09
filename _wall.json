@@ -1,6 +1,27 @@
 {
-  "updatedAt": "2026-08-31T22:55:42.214Z",
+  "updatedAt": "2026-09-09T16:45:56.353Z",
   "items": [
+    {
+      "number": 183,
+      "title": "提示词查看器+快捷操作悬浮球贴边隐藏功能",
+      "contributor": "什锦杂货铺",
+      "mergedAt": "2026-09-09T14:28:39Z",
+      "url": "https://github.com/xiaolongbao0709/ai-virtual-phone/pull/183"
+    },
+    {
+      "number": 185,
+      "title": "新增高清音频优化选项，不关后台保活也能高音质了",
+      "contributor": "但求一睡君莫笑&什锦杂货铺",
+      "mergedAt": "2026-09-09T13:15:51Z",
+      "url": "https://github.com/xiaolongbao0709/ai-virtual-phone/pull/185"
+    },
+    {
+      "number": 186,
+      "title": "修复朋友圈角色自拍不使用参考图的问题，增加出镜语义兜底与状态反馈",
+      "contributor": "什锦杂货铺。",
+      "mergedAt": "2026-09-09T12:55:01Z",
+      "url": "https://github.com/xiaolongbao0709/ai-virtual-phone/pull/186"
+    },
     {
       "number": 161,
       "title": "Feature/novelai image generation",
