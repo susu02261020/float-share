@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-09-09T16:45:56.353Z",
+  "updatedAt": "2026-09-11T11:33:05.219Z",
   "items": [
+    {
+      "number": 188,
+      "title": "fix: 优化参考图判定与重试控制，完善生成中断容灾与换图平滑度",
+      "contributor": "什锦杂货铺",
+      "mergedAt": "2026-09-11T09:22:59Z",
+      "url": "https://github.com/xiaolongbao0709/ai-virtual-phone/pull/188"
+    },
     {
       "number": 183,
       "title": "提示词查看器+快捷操作悬浮球贴边隐藏功能",
