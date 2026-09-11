@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T09:32:13.645Z",
+  "generatedAt": "2026-09-11T17:39:59.397Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -29,7 +29,7 @@
     },
     {
       "name": "应用",
-      "count": 91
+      "count": 92
     },
     {
       "name": "应用bug改善",
@@ -2043,6 +2043,25 @@
       "avatar": "资源/应用/[幽灵]健康/.avatar.png",
       "ownerHash": "4c5a389c9b5a488af6c850b9573f167bd072aa6b1d5a4c2884f314e05e1ca5e5",
       "updatedAt": "2026-08-18T09:51:40+08:00"
+    },
+    {
+      "folder": "应用",
+      "name": "[星星]公共储物架+壹集市合并",
+      "dirName": "[星星]公共储物架+壹集市合并",
+      "type": "dir",
+      "path": "资源/应用/[星星]公共储物架+壹集市合并",
+      "files": [
+        "资源/应用/[星星]公共储物架+壹集市合并/app.public.pantry-3.0.1完美版.zip"
+      ],
+      "images": [
+        "资源/应用/[星星]公共储物架+壹集市合并/1000044886.jpg",
+        "资源/应用/[星星]公共储物架+壹集市合并/1000044888.jpg"
+      ],
+      "description": "角色与用户共享储物架，内置集市，配备工具栏，使用说明如图：",
+      "author": "清",
+      "avatar": "",
+      "ownerHash": "c960a6ed0115aebd1a2b0f673d2c73f169cf59f1679b5ee42b2af1c6c7c7d734",
+      "updatedAt": "2026-09-09T22:38:15+08:00"
     },
     {
       "folder": "应用",
