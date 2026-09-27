@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T10:36:07.411Z",
+  "generatedAt": "2026-09-27T15:05:24.534Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -69,7 +69,7 @@
     },
     {
       "name": "特调材料",
-      "count": 6
+      "count": 7
     },
     {
       "name": "线上正则",
@@ -5860,6 +5860,24 @@
       "avatar": "",
       "ownerHash": "0ffce5bd289863ee9a5da25317d422cc3b3ebe42a4b3a0fa8e44b0b9443fc92b",
       "updatedAt": "2026-09-01T07:50:22+08:00"
+    },
+    {
+      "folder": "特调材料",
+      "name": "裴峥",
+      "dirName": "裴峥",
+      "type": "dir",
+      "path": "资源/特调材料/裴峥",
+      "files": [
+        "资源/特调材料/裴峥/裴峥.配方.json"
+      ],
+      "images": [
+        "资源/特调材料/裴峥/IMG_3392.jpeg"
+      ],
+      "description": "角色卡一张。\n角色简介：男友从来不管你是不爱你了吗？",
+      "author": "灿灿",
+      "avatar": "",
+      "ownerHash": "9577e5df4de93884ed882617df4005b5545c3bae0b2da19585abc2241356d7f3",
+      "updatedAt": "2026-09-27T23:04:31+08:00"
     },
     {
       "folder": "特调材料",
