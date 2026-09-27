@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T06:03:18.593Z",
+  "generatedAt": "2026-09-27T10:29:28.314Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -65,7 +65,7 @@
     },
     {
       "name": "游戏",
-      "count": 12
+      "count": 13
     },
     {
       "name": "特调材料",
@@ -5781,6 +5781,27 @@
       "avatar": "",
       "ownerHash": "9efd54662b8c3c5412eeb83106f9f92b3ba3791db8aa34ea61c3b3520a04d85d",
       "updatedAt": "2026-09-01T20:36:03+08:00"
+    },
+    {
+      "folder": "游戏",
+      "name": "跳一跳",
+      "dirName": "跳一跳",
+      "type": "dir",
+      "path": "资源/游戏/跳一跳",
+      "files": [
+        "资源/游戏/跳一跳/跳一跳1.4.zip"
+      ],
+      "images": [
+        "资源/游戏/跳一跳/Screenshot_20260927_154309.jpg",
+        "资源/游戏/跳一跳/Screenshot_20260927_154402.jpg",
+        "资源/游戏/跳一跳/Screenshot_20260927_155229.jpg",
+        "资源/游戏/跳一跳/Screenshot_20260927_155459.jpg"
+      ],
+      "description": "导入应用就可以玩了。豆老师做的简陋的跳一跳，有点卡。可以自己玩，也可以和角色对战。自己玩不消耗api，和角色对战会调用api。可以把成绩发给角色\n因为角色都很厉害，这个会演示角色玩的过程，觉得时间太长了可以连续点击屏幕，会干扰角色行动。",
+      "author": "泽",
+      "avatar": "",
+      "ownerHash": "c3b531a2b75b449fe042a520974f60f167ed3b2b94ece49ec6447cae37a96d8e",
+      "updatedAt": "2026-09-27T18:27:39+08:00"
     },
     {
       "folder": "特调材料",
