@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T01:47:25.336Z",
+  "generatedAt": "2026-09-28T02:04:00.609Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -4799,7 +4799,7 @@
       "type": "dir",
       "path": "资源/应用/课程表",
       "files": [
-        "资源/应用/课程表/课程表_v1.0.2.zip"
+        "资源/应用/课程表/课程表_v1.0.5.zip"
       ],
       "images": [
         "资源/应用/课程表/IMG_6540.jpeg",
@@ -4810,11 +4810,11 @@
         "资源/应用/课程表/IMG_6545.jpeg",
         "资源/应用/课程表/IMG_6546.jpeg"
       ],
-      "description": "会自动导入、能记作业、还能听懂你随口说的课表 App。具体如图",
+      "description": "会自动导入、能记作业、还能听懂你随口说的课表 App。具体如图\n9.28完善一些小功能",
       "author": "觎烬",
       "avatar": "资源/应用/课程表/.avatar.png",
       "ownerHash": "399610b526381ffe701e1ef5470ffbbd23e0bdd78da58eed769f6ec26ac9895d",
-      "updatedAt": "2026-09-02T11:31:00+08:00"
+      "updatedAt": "2026-09-28T10:02:50+08:00"
     },
     {
       "folder": "应用",
