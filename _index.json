@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T05:38:06.671Z",
+  "generatedAt": "2026-09-28T06:14:31.951Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -5887,13 +5887,13 @@
         "资源/特调材料/裴峥/裴峥v2.配方.json"
       ],
       "images": [
-        "资源/特调材料/裴峥/IMG_3392.jpeg"
+        "资源/特调材料/裴峥/IMG_3434.jpeg"
       ],
       "description": "角色简介：男友从来不管你是不爱你了吗？\n\n更新：\n- 增加了一个播放器，自带三首歌，支持添加直链。\n- 增加了角色介绍小剧场，优化了折叠栏显示小 bug。\n\n\n其他：\n- user 无预设，开场白是我想吃这一口，可以自定义开场白。\n- 3.8f＞3.1p",
       "author": "灿灿",
       "avatar": "",
       "ownerHash": "9577e5df4de93884ed882617df4005b5545c3bae0b2da19585abc2241356d7f3",
-      "updatedAt": "2026-09-28T13:36:52+08:00"
+      "updatedAt": "2026-09-28T14:13:18+08:00"
     },
     {
       "folder": "特调材料",
