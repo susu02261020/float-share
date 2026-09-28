@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T11:02:39.925Z",
+  "generatedAt": "2026-09-28T12:23:23.319Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -37,7 +37,7 @@
     },
     {
       "name": "应用",
-      "count": 128
+      "count": 129
     },
     {
       "name": "应用bug改善",
@@ -2808,6 +2808,33 @@
       "avatar": "资源/应用/Tripie/.avatar.png",
       "ownerHash": "e980d0a04ef4ce6decd5698ccef390b628dae344225e3a0678b9fbfed09aa659",
       "updatedAt": "2026-09-22T14:57:56+08:00"
+    },
+    {
+      "folder": "应用",
+      "name": "Twitter推特（黑X）",
+      "dirName": "Twitter推特（黑X）",
+      "type": "dir",
+      "path": "资源/应用/Twitter推特（黑X）",
+      "files": [
+        "资源/应用/Twitter推特（黑X）/X-float-1.9.6.zip"
+      ],
+      "images": [
+        "资源/应用/Twitter推特（黑X）/IMG_1310.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1311.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1312.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1313.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1314.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1315.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1316.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1317.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1319.JPG",
+        "资源/应用/Twitter推特（黑X）/IMG_1320.JPG"
+      ],
+      "description": "[粗][粉][大]痴迷于情侣网h梗，所以做之♡[/大][/粉][/粗]\n[粗][粉][大]\n[/大][/粉][/粗]\n[粗][紫][大]自备破J世界书，不然内容正经[/大][/紫][/粗]\n[粗][紫]添加时间线设定关键词打开新世界[/紫][/粗]\n[粗][粉]\n[/粉][/粗]\n[灰][小]过些天再更新群组吧，有bug反馈给我🐧1107924487[/小][/灰]\n[粗][粉]\n[/粉][/粗]",
+      "author": "仓鼠",
+      "avatar": "资源/应用/Twitter推特（黑X）/.avatar.png",
+      "ownerHash": "9840628ff5f4d01a8a3aad435eade27791b624164c9cb2815513a424987ac5f7",
+      "updatedAt": "2026-09-28T20:22:15+08:00"
     },
     {
       "folder": "应用",
