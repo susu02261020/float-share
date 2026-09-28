@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T02:42:22.354Z",
+  "generatedAt": "2026-09-28T05:26:33.386Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -89,7 +89,7 @@
     },
     {
       "name": "表情包",
-      "count": 10
+      "count": 11
     }
   ],
   "entries": [
@@ -7384,6 +7384,26 @@
       "avatar": "资源/表情包/比格/.avatar.png",
       "ownerHash": "6282160018481cd1e72c1d048cde54f68f685dc043a3f0bb414518f03418a3cd",
       "updatedAt": "2026-09-08T20:12:32+08:00"
+    },
+    {
+      "folder": "表情包",
+      "name": "萌萌表情包",
+      "dirName": "萌萌表情包",
+      "type": "dir",
+      "path": "资源/表情包/萌萌表情包",
+      "files": [
+        "资源/表情包/萌萌表情包/表情包by夏黎.docx"
+      ],
+      "images": [
+        "资源/表情包/萌萌表情包/1000107904.jpg",
+        "资源/表情包/萌萌表情包/1000107909.jpg",
+        "资源/表情包/萌萌表情包/1000107910.jpg"
+      ],
+      "description": "",
+      "author": "夏黎",
+      "avatar": "资源/表情包/萌萌表情包/.avatar.png",
+      "ownerHash": "38862857e8e107e2eba9d405dc4162385e199a05563417c0022637fd444ac5d1",
+      "updatedAt": "2026-09-28T13:25:18+08:00"
     },
     {
       "folder": "表情包",
