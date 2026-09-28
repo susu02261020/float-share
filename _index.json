@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T12:33:49.333Z",
+  "generatedAt": "2026-09-28T13:33:14.574Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -9,7 +9,7 @@
     },
     {
       "name": "Js插件",
-      "count": 64
+      "count": 65
     },
     {
       "name": "MCP",
@@ -1186,6 +1186,25 @@
       "avatar": "资源/Js插件/角色主动聊天（更新保存提醒）/.avatar.png",
       "ownerHash": "ede8199ada8254a22c3c124c5e367a30a98e15e62456b916541c8f03bc4af34b",
       "updatedAt": "2026-08-27T09:15:30+08:00"
+    },
+    {
+      "folder": "Js插件",
+      "name": "角色成长手帐",
+      "dirName": "角色成长手帐",
+      "type": "dir",
+      "path": "资源/Js插件/角色成长手帐",
+      "files": [
+        "资源/Js插件/角色成长手帐/角色成长手帐_小手机插件 (3).js"
+      ],
+      "images": [
+        "资源/Js插件/角色成长手帐/Screenshot_20260928_124404_org.mozilla.firefox.jpg",
+        "资源/Js插件/角色成长手帐/Screenshot_20260928_124409_org.mozilla.firefox.jpg"
+      ],
+      "description": "AI 一键生成长期规划：根据角色人设，量身制定多阶段的生活目标（如考研、攒钱、养宠、职场发展等）。\n角色带着目标自然聊天：角色在日常微信聊天中会自然流露自己的生活近况与打算，像个真人一样有目标地生活。\n完全由你手动打勾打卡：系统绝不擅自自动打勾，每一项目标是否达成，完全由你在手帐里亲自点击确认。\n目标支持随时修改与添加：手帐里的每项目标都可以点 ✏️ 自定义修改，也可以随时追加新的大目标。\n顶栏实时显示成长进度：聊天顶部有胶囊进度条，点开就是手帐看板，记录着你们的成长足迹。",
+      "author": "宝宝",
+      "avatar": "",
+      "ownerHash": "122da77ce3e09cb45fb3833d01053fa7d73663b1ed5d35d61b66d65a8b7cf4ea",
+      "updatedAt": "2026-09-28T21:31:50+08:00"
     },
     {
       "folder": "Js插件",
