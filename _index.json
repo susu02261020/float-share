@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T07:44:49.633Z",
+  "generatedAt": "2026-09-28T11:00:59.006Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -4639,7 +4639,6 @@
       "type": "dir",
       "path": "资源/应用/考公错题软件",
       "files": [
-        "资源/应用/考公错题软件/quiz.workshop-1.2.0 (1).zip",
         "资源/应用/考公错题软件/quiz.workshop-1.2.0.zip"
       ],
       "images": [],
@@ -4647,7 +4646,7 @@
       "author": "Lind",
       "avatar": "资源/应用/考公错题软件/.avatar.png",
       "ownerHash": "120fb2230dafecee5ae5be0a1b49abdc9b4ed42491e25793739f3a496a3773ae",
-      "updatedAt": "2026-09-28T15:43:22+08:00"
+      "updatedAt": "2026-09-28T18:59:12+08:00"
     },
     {
       "folder": "应用",
