@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T13:33:14.574Z",
+  "generatedAt": "2026-09-28T13:37:02.584Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -9,7 +9,7 @@
     },
     {
       "name": "Js插件",
-      "count": 65
+      "count": 66
     },
     {
       "name": "MCP",
@@ -336,6 +336,26 @@
       "avatar": "资源/Js插件/侧边滑动回退/.avatar.png",
       "ownerHash": "8be1404dc48b69dac097ce254c34d80c5a2bc55c62acef7b9d6217419189b554",
       "updatedAt": "2026-09-09T11:31:17+08:00"
+    },
+    {
+      "folder": "Js插件",
+      "name": "分身马甲插件",
+      "dirName": "分身马甲插件",
+      "type": "dir",
+      "path": "资源/Js插件/分身马甲插件",
+      "files": [
+        "资源/Js插件/分身马甲插件/分身马甲双轨版_小手机插件 (4).js"
+      ],
+      "images": [
+        "资源/Js插件/分身马甲插件/Screenshot_20260928_160531_org.mozilla.firefox.jpg",
+        "资源/Js插件/分身马甲插件/Screenshot_20260928_160546_org.mozilla.firefox.jpg",
+        "资源/Js插件/分身马甲插件/Screenshot_20260928_161043.jpg"
+      ],
+      "description": "🎭 分身小号马甲插件\n让你在小手机里随时开小号、换马甲与角色聊天互动！\n🌟 核心功能：\n1，随时切马甲：聊天顶栏一键换皮，秒切不同小号身份与人设。\n2，专属小号聊天室：给角色开个独立的小号聊天线，微信常驻，记录不串台。\n3，神级小号心智：\n1)AI 把小号当真实好友/心腹倾诉、派差事；\n2)切回大号，AI 清楚记得和小号聊过什么；\n3)只要你不拆穿，AI 绝猜不到小号是你，摊牌即掉马！\n4，互不串台：只在当前角色生效，其他角色完全原生隔离。\n图1是马甲聊的，图2是user，可以看到记忆是互通的，图3点击开双轨新线会自动创建图1那样的新的会话，不过会自动重新登录",
+      "author": "宝宝",
+      "avatar": "",
+      "ownerHash": "122da77ce3e09cb45fb3833d01053fa7d73663b1ed5d35d61b66d65a8b7cf4ea",
+      "updatedAt": "2026-09-28T21:35:43+08:00"
     },
     {
       "folder": "Js插件",
