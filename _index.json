@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T16:30:02.391Z",
+  "generatedAt": "2026-09-28T01:37:24.443Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -37,7 +37,7 @@
     },
     {
       "name": "应用",
-      "count": 127
+      "count": 128
     },
     {
       "name": "应用bug改善",
@@ -4368,6 +4368,22 @@
       "avatar": "资源/应用/暖心小灶/.avatar.png",
       "ownerHash": "1296c86a2df60f4785d5045f10d54089dd006909493e00eedd4570b73fd7d1c2",
       "updatedAt": "2026-09-17T19:43:31+08:00"
+    },
+    {
+      "folder": "应用",
+      "name": "暗房",
+      "dirName": "暗房",
+      "type": "dir",
+      "path": "资源/应用/暗房",
+      "files": [
+        "资源/应用/暗房/暗房_v5.9.1.zip"
+      ],
+      "images": [],
+      "description": "一个仿监控app。\n同名🍠发有全流程大概功能介绍\n有bug戳我",
+      "author": "觎烬",
+      "avatar": "资源/应用/暗房/.avatar.png",
+      "ownerHash": "399610b526381ffe701e1ef5470ffbbd23e0bdd78da58eed769f6ec26ac9895d",
+      "updatedAt": "2026-09-28T09:36:19+08:00"
     },
     {
       "folder": "应用",
