@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T12:19:47.525Z",
+  "generatedAt": "2026-09-30T12:22:48.712Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -45,7 +45,7 @@
     },
     {
       "name": "应用反馈（与应用作者沟通渠道）",
-      "count": 7
+      "count": 6
     },
     {
       "name": "快捷指令模版",
@@ -5275,20 +5275,6 @@
       "avatar": "",
       "ownerHash": "bdf6a37a27be8366340a00d59b1df351b214f575f4460a44460bb2633f17562e",
       "updatedAt": "2026-09-22T20:30:05+08:00"
-    },
-    {
-      "folder": "应用反馈（与应用作者沟通渠道）",
-      "name": "公共储物架和壹集市里壹集市无法切换",
-      "dirName": "公共储物架和壹集市里壹集市无法切换",
-      "type": "dir",
-      "path": "资源/应用反馈（与应用作者沟通渠道）/公共储物架和壹集市里壹集市无法切换",
-      "files": [],
-      "images": [],
-      "description": "老师老师，集市上的版本导入后，壹集市无法正常切换😭，真的很喜欢老师的应用",
-      "author": "",
-      "avatar": "",
-      "ownerHash": "b32246b26f03c91edd579c26cfef21927824a0cfbc453ec3277e4ced15645125",
-      "updatedAt": "2026-09-21T18:38:08+08:00"
     },
     {
       "folder": "应用反馈（与应用作者沟通渠道）",
