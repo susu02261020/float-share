@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T13:18:11.027Z",
+  "generatedAt": "2026-09-30T13:31:27.401Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -37,7 +37,7 @@
     },
     {
       "name": "应用",
-      "count": 132
+      "count": 131
     },
     {
       "name": "应用bug改善",
@@ -3358,24 +3358,6 @@
       "avatar": "资源/应用/[雪花]SQZcinema/.avatar.png",
       "ownerHash": "b1e1c3387460706865343cc3941321654acd3bfbe0ff343af04c9600a7f7b4e1",
       "updatedAt": "2026-09-16T15:43:33+08:00"
-    },
-    {
-      "folder": "应用",
-      "name": "生成同人小说[蝴蝶结]",
-      "dirName": "ao3[蝴蝶结]",
-      "type": "dir",
-      "path": "资源/应用/ao3[蝴蝶结]",
-      "files": [
-        "资源/应用/ao3[蝴蝶结]/ao3-novel-app.zip"
-      ],
-      "images": [
-        "资源/应用/ao3[蝴蝶结]/IMG_7816.jpeg"
-      ],
-      "description": "可以生成同人文玩，目前还没完善",
-      "author": "小梨",
-      "avatar": "",
-      "ownerHash": "85294a401778d50187b3ffece59423769c1d20b02054f2f463068ad86e183e16",
-      "updatedAt": "2026-08-19T18:20:38+08:00"
     },
     {
       "folder": "应用",
