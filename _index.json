@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T12:22:48.712Z",
+  "generatedAt": "2026-09-30T13:18:11.027Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -4521,14 +4521,15 @@
       "type": "dir",
       "path": "资源/应用/暗房",
       "files": [
-        "资源/应用/暗房/暗房_v5.9.1.zip"
+        "资源/应用/暗房/暗房_v5.9.1.zip",
+        "资源/应用/暗房/暗房_v5.9.2.zip"
       ],
       "images": [],
-      "description": "一个仿监控app。\n同名🍠发有全流程大概功能介绍\n有bug戳我",
+      "description": "一个仿监控app。\n同名🍠发有全流程大概功能介绍\n因为我玩的不怎么频繁所以有些问题可能发现不了，如果有bug随时戳我\n5.9.2版本是生成房间页面去毛玻璃的。两个版本功能上没有区别，只是5.9.1可能对手机显卡要求比较高来着。",
       "author": "觎烬",
       "avatar": "资源/应用/暗房/.avatar.png",
       "ownerHash": "399610b526381ffe701e1ef5470ffbbd23e0bdd78da58eed769f6ec26ac9895d",
-      "updatedAt": "2026-09-28T09:36:19+08:00"
+      "updatedAt": "2026-09-30T21:16:45+08:00"
     },
     {
       "folder": "应用",
