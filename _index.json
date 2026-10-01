@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T04:53:39.691Z",
+  "generatedAt": "2026-10-01T07:33:18.608Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -2780,7 +2780,8 @@
       "type": "dir",
       "path": "资源/应用/SQZcinema",
       "files": [
-        "资源/应用/SQZcinema/SQZcinema-1.0公开版.zip"
+        "资源/应用/SQZcinema/SQZcinema-1.0公开版.zip",
+        "资源/应用/SQZcinema/SQZcinema-配置教程.md"
       ],
       "images": [
         "资源/应用/SQZcinema/1000106094.jpg"
@@ -2789,7 +2790,7 @@
       "author": "汀岸逢愆（Github🍠同名）",
       "avatar": "资源/应用/SQZcinema/.avatar.png",
       "ownerHash": "b1e1c3387460706865343cc3941321654acd3bfbe0ff343af04c9600a7f7b4e1",
-      "updatedAt": "2026-09-16T15:46:45+08:00"
+      "updatedAt": "2026-10-01T15:32:00+08:00"
     },
     {
       "folder": "应用",
