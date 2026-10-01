@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T08:28:35.359Z",
+  "generatedAt": "2026-10-01T19:52:46.699Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -6861,8 +6861,8 @@
       "description": "气泡有两个版本线上美化，放在消息-主页-外观css里食用\n放在全局美化里也可以，但是设置角色界面会有bug",
       "author": "淅沥沥",
       "avatar": "资源/线上美化/线上美化/.avatar.png",
-      "ownerHash": "bf65bc1c732341505dc056c65d6ad17b6862e2c1f0cdf99f70af36a873b438aa",
-      "updatedAt": "2026-08-13T15:54:02+08:00"
+      "ownerHash": "c76d001b2c70156ba8e7cd67192a641e1dc8a44e4c1472151374999d68b5c934",
+      "updatedAt": "2026-10-02T03:51:30+08:00"
     },
     {
       "folder": "线上美化",
@@ -6895,8 +6895,8 @@
       "description": "线上美化\n图源:xhs梨漫枝，小烁星",
       "author": "淅沥沥",
       "avatar": "资源/线上美化/莓莓兔丸/.avatar.png",
-      "ownerHash": "bf65bc1c732341505dc056c65d6ad17b6862e2c1f0cdf99f70af36a873b438aa",
-      "updatedAt": "2026-08-13T16:05:33+08:00"
+      "ownerHash": "c76d001b2c70156ba8e7cd67192a641e1dc8a44e4c1472151374999d68b5c934",
+      "updatedAt": "2026-10-02T03:51:33+08:00"
     },
     {
       "folder": "线上美化",
