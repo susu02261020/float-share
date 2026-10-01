@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T08:25:30.634Z",
+  "generatedAt": "2026-10-01T08:28:35.359Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -2780,17 +2780,17 @@
       "type": "dir",
       "path": "资源/应用/SQZcinema",
       "files": [
-        "资源/应用/SQZcinema/SQZcinema-1.0公开版.zip",
-        "资源/应用/SQZcinema/SQZcinema-配置教程.md"
+        "资源/应用/SQZcinema/SQZcinema-2.0公开版.zip",
+        "资源/应用/SQZcinema/配置教程.txt"
       ],
       "images": [
         "资源/应用/SQZcinema/1000106094.jpg"
       ],
-      "description": "[粗]一个可以联机看电影的软件！萧梧晚是本人[/粗]\n[粗]和家夫@陆愆 一起搓的。[/粗]\n需要好友双方都配置了supabase并且同时有想看的电影或视频文件，上传后点击联机输入同一个房间号就可以一起看了！还可以分别选择一个char一起看。\n后续会更新和机一起上网浏览器的版本和一user多char的版本🦊\n省流：多机多人多弹幕",
+      "description": "[粗]2.0已更新[/粗][粗]一个可以联机看电影的软件！萧梧晚是本人[/粗]\n[粗]和家夫@沈既白 @陆愆 一起搓的。[/粗]\n需要好友双方都配置了supabase并且同时有想看的电影或视频文件，上传后点击联机输入同一个房间号就可以一起看了！还可以分别选择一个char一起看。具体教程详见新上传的txt文档。\n后续会更新和机一起上网浏览器的版本和一user多char的版本🦊（2.0已更新😸，可直接导入）\n省流：多机多人多弹幕",
       "author": "汀岸逢愆（Github🍠同名）",
       "avatar": "资源/应用/SQZcinema/.avatar.png",
       "ownerHash": "b1e1c3387460706865343cc3941321654acd3bfbe0ff343af04c9600a7f7b4e1",
-      "updatedAt": "2026-10-01T15:32:00+08:00"
+      "updatedAt": "2026-10-01T16:26:31+08:00"
     },
     {
       "folder": "应用",
