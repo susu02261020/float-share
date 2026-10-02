@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T11:19:49.118Z",
+  "generatedAt": "2026-10-02T11:28:45.285Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -9,7 +9,7 @@
     },
     {
       "name": "Js插件",
-      "count": 67
+      "count": 68
     },
     {
       "name": "MCP",
@@ -77,7 +77,7 @@
     },
     {
       "name": "线上美化",
-      "count": 49
+      "count": 48
     },
     {
       "name": "线上聊天状态栏",
@@ -1313,6 +1313,22 @@
       "avatar": "",
       "ownerHash": "ccaecc009bf4a4f670f01f93005ebb7e60c8d958fe2449025a41e1609ae3e4cd",
       "updatedAt": "2026-09-01T23:47:51+08:00"
+    },
+    {
+      "folder": "Js插件",
+      "name": "锁屏插件",
+      "dirName": "锁屏插件",
+      "type": "dir",
+      "path": "资源/Js插件/锁屏插件",
+      "files": [
+        "资源/Js插件/锁屏插件/te.js"
+      ],
+      "images": [],
+      "description": "每次启动时会出现锁屏页面输入密码，可设置壁纸，输入错误密码时自动跳转重置密码页面。\n支持二改，无聊所做，可以丢给AI美化一下",
+      "author": "",
+      "avatar": "",
+      "ownerHash": "744a240a9e75b6e391e9c765bf223c2b145a918023a693736b053f6ab2b9a321",
+      "updatedAt": "2026-10-02T19:27:15+08:00"
     },
     {
       "folder": "Js插件",
@@ -5329,11 +5345,11 @@
       "images": [
         "资源/朋友圈美化/柔粉色渐变美化/IMG_4924.png"
       ],
-      "description": "一个很朴素的美化，只是改了下颜色。",
+      "description": "一个很朴素的美化，只是改了下颜色。\n导入聊天主页css就可以啦，或者下载之后直接复制过去。",
       "author": "卷卷",
       "avatar": "资源/朋友圈美化/柔粉色渐变美化/.avatar.png",
       "ownerHash": "3ac95b64252fff879b9c4bcd49ede71fbb44f771a2ce206e1a36baab88923a0c",
-      "updatedAt": "2026-10-02T19:18:26+08:00"
+      "updatedAt": "2026-10-02T19:27:29+08:00"
     },
     {
       "folder": "朋友圈美化",
@@ -6571,25 +6587,6 @@
       "avatar": "资源/线上美化/奶蓝芝士[星星]/.avatar.png",
       "ownerHash": "bf65bc1c732341505dc056c65d6ad17b6862e2c1f0cdf99f70af36a873b438aa",
       "updatedAt": "2026-08-19T18:00:12+08:00"
-    },
-    {
-      "folder": "线上美化",
-      "name": "新艺术风",
-      "dirName": "新艺术风",
-      "type": "dir",
-      "path": "资源/线上美化/新艺术风",
-      "files": [
-        "资源/线上美化/新艺术风/新艺术风.txt"
-      ],
-      "images": [
-        "资源/线上美化/新艺术风/Collage_20260830_093257.jpg",
-        "资源/线上美化/新艺术风/Collage_20260830_093311.jpg"
-      ],
-      "description": "用DeepSeek写的，支持2改2传",
-      "author": "",
-      "avatar": "",
-      "ownerHash": "744a240a9e75b6e391e9c765bf223c2b145a918023a693736b053f6ab2b9a321",
-      "updatedAt": "2026-08-30T09:37:05+08:00"
     },
     {
       "folder": "线上美化",
