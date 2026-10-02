@@ -1,0 +1,62 @@
+/* 朋友圈专属美化 - 浅粉可爱梦幻风 💖✨ */
+/* 页面背景：梦幻渐变柔粉色 */
+.chat-app .moments-feed-page > .page-body {
+  background: linear-gradient(180deg, #fff0f5 0%, #fae1ed 50%, #f7d6e6 100%);
+}
+/* 个人头像与名称装饰 */
+.feed-profile-avatar {
+  border: 3px solid #ffe4ef;
+  box-shadow: 0 4px 15px rgba(255, 182, 193, 0.5);
+  border-radius: 20px;
+}
+.feed-profile-name {
+  font-weight: 700;
+  color: #d85c88;
+}
+.feed-profile-name::after {
+  content: " 💕✨";
+  font-size: 14px;
+}
+/* 动态卡片：梦幻粉白渐变 + 柔和阴影 */
+.feed-post {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 16px;
+  margin: 14px 14px 18px;
+  box-shadow: 0 6px 18px rgba(230, 160, 185, 0.18);
+  border: 1.5px solid #ffe3ee;
+}
+.feed-post-author-name {
+  font-weight: 700;
+  color: #c94a79;
+}
+.feed-post-author-name::after {
+  content: " 💖";
+  font-size: 12px;
+}
+.feed-post-content {
+  line-height: 1.65;
+  color: #4a3e43;
+}
+/* 点赞与评论区：浅粉红豆膏风格 */
+.feed-like-summary {
+  background: #fff0f5;
+  padding: 8px 12px;
+  border-radius: 12px;
+  margin-top: 10px;
+  border: 1px dashed #f8c8dc;
+}
+.feed-comments {
+  background: #fff0f5;
+  padding: 10px 12px;
+  border-radius: 12px;
+  margin-top: 8px;
+  border: 1px dashed #f8c8dc;
+}
+/* 输入框 */
+.feed-comment-input {
+  background: #ffffff;
+  border: 1.5px solid #f8c8dc;
+  border-radius: 20px;
+}
