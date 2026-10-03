@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T08:52:02.946Z",
+  "generatedAt": "2026-10-03T08:58:02.001Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -5384,12 +5384,14 @@
       "files": [
         "资源/朋友圈美化/冰蓝粉小饰品/冰粉蓝小饰品朋友圈美化.txt"
       ],
-      "images": [],
-      "description": "一个很简洁的美化\nchar头像上会有个蝴蝶结小饰品",
+      "images": [
+        "资源/朋友圈美化/冰蓝粉小饰品/IMG_4967.jpeg"
+      ],
+      "description": "一个很简洁的美化\n朋友圈美化\nchar头像上会有个蝴蝶结小饰品",
       "author": "卷卷",
       "avatar": "资源/朋友圈美化/冰蓝粉小饰品/.avatar.png",
       "ownerHash": "3ac95b64252fff879b9c4bcd49ede71fbb44f771a2ce206e1a36baab88923a0c",
-      "updatedAt": "2026-10-03T16:50:27+08:00"
+      "updatedAt": "2026-10-03T16:56:28+08:00"
     },
     {
       "folder": "朋友圈美化",
