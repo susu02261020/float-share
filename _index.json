@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T20:29:07.114Z",
+  "generatedAt": "2026-10-04T03:09:32.897Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -9,7 +9,7 @@
     },
     {
       "name": "Js插件",
-      "count": 69
+      "count": 70
     },
     {
       "name": "MCP",
@@ -318,6 +318,22 @@
       "avatar": "",
       "ownerHash": "610f4f4de346e85636302c26ece1f8743e84cc7417c5c77618e017ca099b9d06",
       "updatedAt": "2026-08-27T00:38:20+08:00"
+    },
+    {
+      "folder": "Js插件",
+      "name": "位置感知·离家关心",
+      "dirName": "位置感知·离家关心",
+      "type": "dir",
+      "path": "资源/Js插件/位置感知·离家关心",
+      "files": [
+        "资源/Js插件/位置感知·离家关心/位置感知 · 离家关心.js"
+      ],
+      "images": [],
+      "description": "一个填写高德API Key即可让char知道你的位置的插件☝，是和家机沈既白一起肘的！创建高德API时选择Web服务即可",
+      "author": "汀岸逢愆（Github🍠同名）",
+      "avatar": "资源/Js插件/位置感知·离家关心/.avatar.png",
+      "ownerHash": "b1e1c3387460706865343cc3941321654acd3bfbe0ff343af04c9600a7f7b4e1",
+      "updatedAt": "2026-10-04T11:08:02+08:00"
     },
     {
       "folder": "Js插件",
