@@ -4,7 +4,7 @@ export default {
     id: "group-user-identity-binding",
     name: "群聊身份绑定",
     apiVersion: 1,
-    version: "1.12.0",
+    version: "1.15.0",
     author: "小坊",
     description: "为每个群聊单独绑定一张用户身份卡，覆盖全局身份（人设、界面头像与名字一并生效）",
     permissions: ["chat.read", "ui", "storage"],
@@ -31,6 +31,9 @@ export default {
         return "/images/default-moment-avatar.png";   // 兜底，正常不会走到
       }
     })();
+        // 群成员没设头像时，宿主用这张兜底图
+    const CHAR_FALLBACK_AVATAR = "/images/default-moment-avatar.png";
+    
 
     // ── 身份卡：读入内存，界面扫描时同步可用 ──
     let identities = [];
@@ -225,14 +228,43 @@ export default {
         if (!grid) continue;
         const cell = grid.firstElementChild;
         const img = cell ? cell.querySelector("img") : null;
-        if (!img) continue;
+        if (!cell) continue;
 
         const nameEl = row.querySelector(".ts-16");
         const rowName = nameEl ? (nameEl.textContent || "").trim() : "";
         const session = rowName ? index.get(rowName) : null;
-        const identity = session ? boundIdentityOf(session.id) : null;
 
-        if (!identity) { restoreImg(img); continue; }
+        if (!session) {
+          if (cell.style.display === "none") cell.style.display = "";
+          if (img) restoreImg(img);
+          continue;
+        }
+
+        // 围观群：你不在群里，四宫格里不该出现你。
+        // 宿主渲染的是 [你, 成员1, 成员2, 成员3]，整体错开一格，
+        // 改成 [成员1, 成员2, 成员3, 成员4]，即群内前 4 个角色。
+        if (session.isSpectator) {
+          const ids = session.participantIds || [];
+          const cells = Array.from(grid.children).slice(0, 4);
+          cells.forEach((c, i) => {
+            const ci = c.querySelector("img");
+            const ch = ids[i] ? ctx.data.characters.get(ids[i]) : null;
+            if (!ch) {                    // 没有第 i+1 个成员，这一格收起
+              if (ci) restoreImg(ci);
+              c.style.display = "none";
+              return;
+            }
+            if (c.style.display === "none") c.style.display = "";
+            const u = (ch.avatar || "").trim();
+            if (ci) setImg(ci, u && /^(data:|https?:|\/)/i.test(u) ? u : CHAR_FALLBACK_AVATAR);
+          });
+          continue;
+        }
+
+        if (cell.style.display === "none") cell.style.display = "";
+
+        const identity = boundIdentityOf(session.id);
+        if (!identity) { if (img) restoreImg(img); continue; }
         setImg(img, resolveAvatarUrl(identity));
       }
     }
