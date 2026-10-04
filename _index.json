@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T12:21:46.382Z",
+  "generatedAt": "2026-10-04T16:04:22.359Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -6737,8 +6737,8 @@
       "description": "聊天美化，放在消息-主页-外观css里食用\n有机会再做别的颜色\n🚫二传/🚫仅下载/🉑二改",
       "author": "淅沥沥",
       "avatar": "资源/线上美化/奶蓝芝士[星星]/.avatar.png",
-      "ownerHash": "bf65bc1c732341505dc056c65d6ad17b6862e2c1f0cdf99f70af36a873b438aa",
-      "updatedAt": "2026-08-19T18:00:12+08:00"
+      "ownerHash": "c76d001b2c70156ba8e7cd67192a641e1dc8a44e4c1472151374999d68b5c934",
+      "updatedAt": "2026-10-05T00:02:55+08:00"
     },
     {
       "folder": "线上美化",
@@ -6901,8 +6901,8 @@
       "description": "是线上美化，放到聊天-主页-外观css里",
       "author": "淅沥沥",
       "avatar": "资源/线上美化/立体蓝/.avatar.png",
-      "ownerHash": "bf65bc1c732341505dc056c65d6ad17b6862e2c1f0cdf99f70af36a873b438aa",
-      "updatedAt": "2026-08-13T15:56:45+08:00"
+      "ownerHash": "c76d001b2c70156ba8e7cd67192a641e1dc8a44e4c1472151374999d68b5c934",
+      "updatedAt": "2026-10-05T00:02:48+08:00"
     },
     {
       "folder": "线上美化",
