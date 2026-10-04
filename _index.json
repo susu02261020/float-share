@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T03:09:32.897Z",
+  "generatedAt": "2026-10-04T12:21:46.382Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -37,7 +37,7 @@
     },
     {
       "name": "应用",
-      "count": 133
+      "count": 134
     },
     {
       "name": "应用bug改善",
@@ -4658,6 +4658,26 @@
       "avatar": "资源/应用/活字乱刷（跟 c 一起玩）/.avatar.png",
       "ownerHash": "9be9e2befed8262f2dc8ebeed5742d4950e3b43a5061d45d16097a53ea6841c0",
       "updatedAt": "2026-09-17T19:58:57+08:00"
+    },
+    {
+      "folder": "应用",
+      "name": "浏览器",
+      "dirName": "浏览器",
+      "type": "dir",
+      "path": "资源/应用/浏览器",
+      "files": [
+        "资源/应用/浏览器/浏览器_小手机应用包 (1).zip"
+      ],
+      "images": [
+        "资源/应用/浏览器/Screenshot_20261004_201003_org.mozilla.firefox.jpg",
+        "资源/应用/浏览器/Screenshot_20261004_201036_org.mozilla.firefox.jpg",
+        "资源/应用/浏览器/Screenshot_20261004_201042_org.mozilla.firefox.jpg"
+      ],
+      "description": "给 Float 小手机做了一个「浏览器」应用 🌐\n它搜索的不是现实互联网，而是你和角色所在的虚构世界。选好角色，就能搜索那个世界里的新闻、人物、地点和事件，查看相关报道与资料。\n不知道搜什么，也可以点「更新」，看看这个世界最近发生了什么。搜到的内容能收藏、发给角色。\n退出后搜索结果会保留，下次打开还能继续看。现代、古风、奇幻等不同背景都可以使用。背景切换在浏览器顶端那个小太阳",
+      "author": "宝宝",
+      "avatar": "",
+      "ownerHash": "122da77ce3e09cb45fb3833d01053fa7d73663b1ed5d35d61b66d65a8b7cf4ea",
+      "updatedAt": "2026-10-04T20:20:40+08:00"
     },
     {
       "folder": "应用",
