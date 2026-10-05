@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T07:24:56.932Z",
+  "generatedAt": "2026-10-05T11:43:55.291Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -9,7 +9,7 @@
     },
     {
       "name": "Js插件",
-      "count": 70
+      "count": 71
     },
     {
       "name": "MCP",
@@ -744,6 +744,25 @@
       "avatar": "",
       "ownerHash": "85b94dde3046f0bb789afce70959e309b5e83cbf12c2417685b16c4d9c3387c5",
       "updatedAt": "2026-09-14T19:46:06+08:00"
+    },
+    {
+      "folder": "Js插件",
+      "name": "无缝线上转线下.js",
+      "dirName": "无缝线上转线下.js",
+      "type": "dir",
+      "path": "资源/Js插件/无缝线上转线下.js",
+      "files": [
+        "资源/Js插件/无缝线上转线下.js/无缝线上转线下.js"
+      ],
+      "images": [
+        "资源/Js插件/无缝线上转线下.js/9426.jpg",
+        "资源/Js插件/无缝线上转线下.js/9431.jpg"
+      ],
+      "description": "不切线下，在聊天框内选择开关进入线下，提示词可自主修改，根据自己口味修改，保证输出也很好吃（[粗]提示词最好保留有告知char转线下了，更加稳定[/粗]）",
+      "author": "小郁",
+      "avatar": "资源/Js插件/无缝线上转线下.js/.avatar.png",
+      "ownerHash": "cb94b0596180ec12aa0b293693af06f3e96d85c4c2a750064d028ac6b5d85840",
+      "updatedAt": "2026-10-05T19:42:36+08:00"
     },
     {
       "folder": "Js插件",
