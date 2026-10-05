@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T13:37:30.628Z",
+  "generatedAt": "2026-10-05T13:45:40.840Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -2162,11 +2162,11 @@
         "资源/全局主题/动森主题-日夜/动森主题-日夜.zip"
       ],
       "images": [],
-      "description": "下载导入主题\n更换其他主题的时候记得把css全部删掉",
+      "description": "下载导入主题\n更换其他主题的时候记得把css全部删掉\n\n\n图标自定义要改css，因为和背景一起是写好的，此乃一套强制爱的主题（私密马赛）\n\n\n自定义app是可以直接改",
       "author": "Yyk",
       "avatar": "",
       "ownerHash": "6421a1c782ea8ac2c630a5c2333444dde10cf3b346c811e07f133389b31f6777",
-      "updatedAt": "2026-10-05T21:35:22+08:00"
+      "updatedAt": "2026-10-05T21:44:14+08:00"
     },
     {
       "folder": "全局主题",
