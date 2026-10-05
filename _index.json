@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T02:43:20.224Z",
+  "generatedAt": "2026-10-05T04:26:57.947Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -9,7 +9,7 @@
     },
     {
       "name": "Js插件",
-      "count": 69
+      "count": 70
     },
     {
       "name": "MCP",
@@ -372,6 +372,22 @@
       "avatar": "",
       "ownerHash": "122da77ce3e09cb45fb3833d01053fa7d73663b1ed5d35d61b66d65a8b7cf4ea",
       "updatedAt": "2026-09-28T21:35:43+08:00"
+    },
+    {
+      "folder": "Js插件",
+      "name": "即便是围观也能左右剧情走向[皇冠]",
+      "dirName": "即便是围观也能左右剧情走向[皇冠]",
+      "type": "dir",
+      "path": "资源/Js插件/即便是围观也能左右剧情走向[皇冠]",
+      "files": [
+        "资源/Js插件/即便是围观也能左右剧情走向[皇冠]/action.js"
+      ],
+      "images": [],
+      "description": "一个很粗糙的小插件~主要解决了在围观群聊里没法说话引导剧情走向的问题。（当然在不是围观模式的场合也可以用。）\n\n\n安装后会多出一个悬浮球，在对应窗口点击悬浮球即可输入剧情引导的提示词，以背景旁白的形式注入给ai，不会算作user自己发的信息。\n\n\n由于放任ai自己推剧情的话，非常容易跑出无聊的走向……这样的话就能很方便地看自己想看的东西了😋",
+      "author": "西河",
+      "avatar": "",
+      "ownerHash": "c72ef6c9550ff23ae7bd39754fbd34f57e5e922aa1489043b027349d0ad8ec8a",
+      "updatedAt": "2026-10-05T12:25:40+08:00"
     },
     {
       "folder": "Js插件",
