@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T18:37:07.844Z",
+  "generatedAt": "2026-10-05T02:32:27.723Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -21,7 +21,7 @@
     },
     {
       "name": "世界书",
-      "count": 1
+      "count": 2
     },
     {
       "name": "全局主题",
@@ -2007,6 +2007,22 @@
       "avatar": "",
       "ownerHash": "58102ce5a9265a94c2ca149a50be3fd3738f293b8d6dc0ecbe83f61ab233cf6e",
       "updatedAt": "2026-08-23T16:00:15Z"
+    },
+    {
+      "folder": "世界书",
+      "name": "防超雄/矮化/八股/AI 腔调",
+      "dirName": "防超雄矮化八股AI 腔调",
+      "type": "dir",
+      "path": "资源/世界书/防超雄矮化八股AI 腔调",
+      "files": [
+        "资源/世界书/防超雄矮化八股AI 腔调/防超雄_矮化_八股_AI腔 (1).json"
+      ],
+      "images": [],
+      "description": "如题，根除超雄暴戾、霸总套话与AI客服感，以环境驱动与即兴反应取代僵化动作模板。",
+      "author": "阿巴阿巴",
+      "avatar": "",
+      "ownerHash": "669c2f4579605edead26c25df83e951ce159584320de5f4d54d4ef156aa46539",
+      "updatedAt": "2026-10-05T10:30:55+08:00"
     },
     {
       "folder": "世界书",
