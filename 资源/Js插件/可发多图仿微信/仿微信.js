@@ -3,7 +3,7 @@ export default {
     id: "image-carousel",
     name: "图片轮播",
     apiVersion: 1,
-    version: "6.2.0",
+    version: "6.3.1",
     author: "你",
     description: "多选发图合并为微信风格轮播，沉浸式全屏大图浏览，支持左右滑动、双指缩放、双击放大、下滑关闭",
     permissions: ["chat.read", "chat.write"],
@@ -741,6 +741,61 @@ export default {
     }
 
     /* ============================================================
+     *  把轮播图片注入 LLM 请求，让 AI 真正"看到"图片
+     * ============================================================ */
+    ctx.hooks.transform("llm.request", (payload) => {
+      try {
+        const sid = payload.sessionId || currentSessionId;
+        if (!sid || !payload.messages || !payload.messages.length) return payload;
+
+        const allMsgs = ctx.data.messages.list(sid) || [];
+
+        // 真实消息里，按先后顺序记录每一条 user 消息是否带轮播图片
+        const allUserSeq = [];
+        for (const m of allMsgs) {
+          if (m.role !== "user") continue;
+          let imgs = m._carouselImages;
+          if (!imgs || !imgs.length) imgs = ctx.system.storage.get("carousel_msg_" + m.id);
+          allUserSeq.push(imgs && imgs.length ? imgs : null);
+        }
+
+        // 发给 LLM 的 user 消息数量；payload 一般是最近 N 条，取真实序列尾部对齐
+        const payloadUserCount = payload.messages.filter((x) => x.role === "user").length;
+        const aligned = allUserSeq.slice(-payloadUserCount);
+
+        let injected = 0, uIdx = 0;
+        payload.messages = payload.messages.map((msg) => {
+          if (msg.role !== "user") return msg;
+          const imgs = aligned[uIdx++];
+          if (!imgs || !imgs.length) return msg;
+          const parts = [{ type: "text", text: "（用户发送了 " + imgs.length + " 张图片，请查看并理解图片内容）" }];
+          imgs.forEach((im) => {
+            parts.push({ type: "image_url", image_url: { url: im.dataURL || im } });
+          });
+          injected++;
+          return Object.assign({}, msg, { content: parts });
+        });
+
+        ctx.system.log(
+          "carousel: llm.request diag payloadUser=" + payloadUserCount +
+          " storedCarouselUser=" + allUserSeq.filter(Boolean).length +
+          " injected=" + injected
+        );
+        // 诊断：打印 payload 里每条 user 消息正文前 30 个字符，便于核对
+        payload.messages.forEach((mm) => {
+          if (mm.role !== "user") return;
+          let desc;
+          if (Array.isArray(mm.content)) desc = "[多模态 " + mm.content.length + " 段]";
+          else desc = JSON.stringify(String(mm.content).slice(0, 30));
+          ctx.system.log("carousel:   user msg ->", desc);
+        });
+      } catch (err) {
+        ctx.system.log("carousel: llm.request inject error:", err);
+      }
+      return payload;
+    });
+
+    /* ============================================================
      *  拦截用户发送（绑定 sessionId，防串台）
      * ============================================================ */
     ctx.hooks.transform("user.beforeSend", (payload) => {
@@ -987,3 +1042,4 @@ export default {
     });
   },
 };
+//（注：内容由AI生成）
