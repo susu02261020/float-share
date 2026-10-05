@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T11:43:55.291Z",
+  "generatedAt": "2026-10-05T11:46:57.785Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -9,7 +9,7 @@
     },
     {
       "name": "Js插件",
-      "count": 71
+      "count": 72
     },
     {
       "name": "MCP",
@@ -266,6 +266,25 @@
       "avatar": "",
       "ownerHash": "b187c9f8dec83db6cf467b82af2254910d4dd901c73f5da114062d4dbd32661e",
       "updatedAt": "2026-08-29T06:57:21+08:00"
+    },
+    {
+      "folder": "Js插件",
+      "name": "一键收纳窗口插件",
+      "dirName": "一键收纳窗口插件",
+      "type": "dir",
+      "path": "资源/Js插件/一键收纳窗口插件",
+      "files": [
+        "资源/Js插件/一键收纳窗口插件/折叠窗口插件开关.js"
+      ],
+      "images": [
+        "资源/Js插件/一键收纳窗口插件/9426.jpg",
+        "资源/Js插件/一键收纳窗口插件/9429.jpg"
+      ],
+      "description": "有和我一样插件过多，有些插件改了强制窗口开启的，窗口有很多这样开关，可以选择使用这个，[粗]一键收纳[/粗]",
+      "author": "小郁",
+      "avatar": "资源/Js插件/一键收纳窗口插件/.avatar.png",
+      "ownerHash": "cb94b0596180ec12aa0b293693af06f3e96d85c4c2a750064d028ac6b5d85840",
+      "updatedAt": "2026-10-05T19:45:22+08:00"
     },
     {
       "folder": "Js插件",
