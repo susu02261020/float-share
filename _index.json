@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T13:19:54.561Z",
+  "generatedAt": "2026-10-05T13:37:30.628Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -25,7 +25,7 @@
     },
     {
       "name": "全局主题",
-      "count": 18
+      "count": 19
     },
     {
       "name": "剧情预设及正则",
@@ -2151,6 +2151,22 @@
       "avatar": "",
       "ownerHash": "236ecc192be0d623afb290c5cc467a13575a1a2edd0456b3c04869f0825cefab",
       "updatedAt": "2026-08-29T09:19:12+08:00"
+    },
+    {
+      "folder": "全局主题",
+      "name": "动森主题-日夜",
+      "dirName": "动森主题-日夜",
+      "type": "dir",
+      "path": "资源/全局主题/动森主题-日夜",
+      "files": [
+        "资源/全局主题/动森主题-日夜/动森主题-日夜.zip"
+      ],
+      "images": [],
+      "description": "下载导入主题\n更换其他主题的时候记得把css全部删掉",
+      "author": "Yyk",
+      "avatar": "",
+      "ownerHash": "6421a1c782ea8ac2c630a5c2333444dde10cf3b346c811e07f133389b31f6777",
+      "updatedAt": "2026-10-05T21:35:22+08:00"
     },
     {
       "folder": "全局主题",
