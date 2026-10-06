@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T13:31:15.985Z",
+  "generatedAt": "2026-10-06T13:49:29.776Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -5210,7 +5210,7 @@
       "type": "dir",
       "path": "资源/应用/邮箱📮-给char一个交笔友+拥有自己邮箱的机会",
       "files": [
-        "资源/应用/邮箱📮-给char一个交笔友+拥有自己邮箱的机会/mailbox.agentmail-1.1.0 (4).zip"
+        "资源/应用/邮箱📮-给char一个交笔友+拥有自己邮箱的机会/mailbox.agentmail-1.1.0 (5).zip"
       ],
       "images": [
         "资源/应用/邮箱📮-给char一个交笔友+拥有自己邮箱的机会/1000115005.jpg",
@@ -5220,7 +5220,7 @@
       "author": "汀岸逢愆（Github🍠同名）",
       "avatar": "资源/应用/邮箱📮-给char一个交笔友+拥有自己邮箱的机会/.avatar.png",
       "ownerHash": "b1e1c3387460706865343cc3941321654acd3bfbe0ff343af04c9600a7f7b4e1",
-      "updatedAt": "2026-10-06T21:29:48+08:00"
+      "updatedAt": "2026-10-06T21:47:58+08:00"
     },
     {
       "folder": "应用",
