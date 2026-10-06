@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T01:13:28.790Z",
+  "generatedAt": "2026-10-06T02:22:20.672Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -17,7 +17,7 @@
     },
     {
       "name": "bug反馈专用，请先询问小坊，无法解决后再进行反馈，反馈最好有详细情境、附图，否则无法复现",
-      "count": 37
+      "count": 38
     },
     {
       "name": "世界书",
@@ -1905,6 +1905,20 @@
       "avatar": "",
       "ownerHash": "eee1ff3396b8bafaeaff7dc7209679503c680ddedfc96481ece03b322fd8e867",
       "updatedAt": "2026-08-23T16:00:15Z"
+    },
+    {
+      "folder": "bug反馈专用，请先询问小坊，无法解决后再进行反馈，反馈最好有详细情境、附图，否则无法复现",
+      "name": "网易云扫码登录不了pc端",
+      "dirName": "网易云扫码登录不了pc端",
+      "type": "dir",
+      "path": "资源/bug反馈专用，请先询问小坊，无法解决后再进行反馈，反馈最好有详细情境、附图，否则无法复现/网易云扫码登录不了pc端",
+      "files": [],
+      "images": [],
+      "description": "网易云扫码登不了pc端  返回没反应",
+      "author": "",
+      "avatar": "",
+      "ownerHash": "2dec754b2acfbb624197c2e4e65976b8740d9be85b9e0d9714da66cf381c65e8",
+      "updatedAt": "2026-10-06T10:20:58+08:00"
     },
     {
       "folder": "bug反馈专用，请先询问小坊，无法解决后再进行反馈，反馈最好有详细情境、附图，否则无法复现",
