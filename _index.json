@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T14:26:31.087Z",
+  "generatedAt": "2026-10-07T14:29:50.706Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -749,7 +749,7 @@
     },
     {
       "folder": "Js插件",
-      "name": "支持用户发送多图朋友圈（最多9张）",
+      "name": "支持用户发布多图朋友圈（最多9张）",
       "dirName": "支持用户发送多图朋友圈（最多9张）",
       "type": "dir",
       "path": "资源/Js插件/支持用户发送多图朋友圈（最多9张）",
@@ -765,7 +765,7 @@
       "author": "kk",
       "avatar": "资源/Js插件/支持用户发送多图朋友圈（最多9张）/.avatar.png",
       "ownerHash": "c9ade4e6ced1ed366176dbec99dc7ed8f71da5f1f4f2a6a552cf248b097b5b1b",
-      "updatedAt": "2026-10-07T22:25:07+08:00"
+      "updatedAt": "2026-10-07T22:28:22+08:00"
     },
     {
       "folder": "Js插件",
