@@ -1,0 +1,400 @@
+/* =========================================================
+   BuddyBuddy 輕鬆熊主題聊天室 UI & 完美氣泡終極極致版
+   ========================================================= */
+
+:root {
+  --c-header-bg: #e6c594 !important;
+  --c-page-body-bg: #fdfae7 !important;
+
+  --c-text-title: #4a3b32 !important;
+  --c-text: #6b574a !important;
+  --c-icon: #8c7362 !important;
+  --c-icon-active: #5c4738 !important;
+
+  --c-input: #fffef9 !important;
+  --c-input-border: #d4b896 !important;
+  --c-card: #fffdf5 !important;
+  --c-card-border: #d9bf9f !important;
+
+  /* 你的輕鬆熊氣泡專用變數 */
+  --rk-pink: #FFD9DE;
+  --rk-tan:  #EDC580;
+  --rk-ink:  #5A4642;      
+  --c-bubble-self: var(--rk-pink);
+  --c-bubble-other: var(--rk-tan);
+}
+
+/* =========================================================
+   ① 整個聊天頁面背景（精緻復古斜紋與暖色漸層）
+   ========================================================= */
+
+.chat-room-wrapper {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.6) 0%, transparent 70%),
+    repeating-linear-gradient(
+      45deg,
+      rgba(168, 140, 110, 0.02) 0px,
+      rgba(168, 140, 110, 0.02) 2px,
+      transparent 2px,
+      transparent 8px
+    ),
+    linear-gradient(
+      180deg,
+      #fffef8 0%,
+      #fdfae7 55%,
+      #f7f0d5 100%
+    ) !important;
+
+  color: #4a3b32 !important;
+}
+
+/* =========================================================
+   ② 頂部導航欄（復古視窗高光立體感）
+   ========================================================= */
+
+.page-header {
+  background:
+    linear-gradient(
+      180deg,
+      #f8e5c8 0%,
+      #f2d6af 35%,
+      #e6c594 50%,
+      #d4aa73 100%
+    ) !important;
+
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border-bottom: 2px solid #b89365 !important;
+  box-shadow:
+    inset 0 1px 0 #fff7ee,
+    inset 0 -1px 0 rgba(115, 84, 52, 0.28),
+    0 3px 6px rgba(92, 71, 50, 0.15) !important;
+}
+
+.page-header-content {
+  padding: 8px 14px !important;
+  gap: 10px !important;
+}
+
+.page-title {
+  color: #4a3b32 !important;
+  font-family: "Trebuchet MS", "Arial Rounded MT Bold", "Microsoft YaHei", sans-serif !important;
+  font-weight: 800 !important;
+  text-shadow: 0 1px 0 #fff7ee, 0 -1px 0 rgba(115, 84, 52, 0.15) !important;
+}
+
+.page-back-btn {
+  color: #5c4738 !important;
+  text-shadow: 0 1px #fff7ee !important;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #d4be9d;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* =========================================================
+   ③ 訊息外層與滾動區（確保不裁切小熊）
+   ========================================================= */
+
+.chat-scroll-anchored {
+  padding: 18px 14px 22px !important;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(168, 140, 110, 0.04) 0px,
+      rgba(168, 140, 110, 0.04) 1px,
+      transparent 1px,
+      transparent 25px
+    ) !important;
+  box-shadow: inset 0 2px 6px rgba(92, 76, 57, 0.08) !important;
+}
+
+.chat-msg-wrapper,
+.chat-msg-content-wrap {
+  overflow: visible !important;
+}
+
+.chat-msg-wrapper {
+  margin-top: 18px;
+  gap: 8px !important;
+}
+
+/* =========================================================
+   ④ 你的完整輕鬆熊氣泡美化（含懸停微立體浮起特效）[span_0](start_span)[span_0](end_span)
+   ========================================================= */
+
+.chat-bubble-role-user,
+.chat-bubble-role-assistant {
+  --rk-k: 0.14;                 /* ★ 小熊大小：0.12 小 / 0.14 預設 / 0.18 大 */
+  --rk-bg: rgba(255, 217, 222, 0.42);
+  position: relative;
+  overflow: visible !important;
+  background:
+    linear-gradient(145deg,
+      rgba(255, 255, 255, 0.82) 0%,
+      rgba(255, 255, 255, 0.35) 54%,
+      rgba(255, 255, 255, 0.58) 100%),
+    var(--rk-bg) !important;
+  border: 1px solid rgba(255, 250, 246, 0.98) !important;
+  border-radius: 14px !important;
+  padding: 6px 20px !important;
+  min-width: 60px;
+  color: var(--rk-ink) !important;
+  box-shadow: 0 2px 5px rgba(92, 76, 57, 0.05) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.3);
+  backdrop-filter: blur(18px) saturate(1.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+/* 新增：滑鼠移到氣泡上時輕輕浮起的小巧思 */
+.chat-bubble-role-user:hover,
+.chat-bubble-role-assistant:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(92, 76, 57, 0.12) !important;
+}
+
+.chat-bubble-role-assistant { 
+  --rk-bg: rgba(237, 197, 128, 0.40) !important; 
+}
+
+.chat-bubble-role-user .chat-markdown,
+.chat-bubble-role-assistant .chat-markdown {
+  color: var(--rk-ink) !important;
+}
+
+/* 左下角裝飾：粉色用旋渦，焦糖色用布丁[span_1](start_span)[span_1](end_span) */
+.chat-bubble-role-user::before,
+.chat-bubble-role-assistant::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute;
+  left: -7px;
+  bottom: -5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 6;
+}
+.chat-bubble-role-user::before {
+  width: 18px;
+  height: 18px;
+  background-image: url("https://img2.tofaka.com/autoupload/fr/ZmNc5khPpuOWmYbP1FSUf4GK-pRQVKZDlyTQMveSdN2yl5f0KlZfm6UsKj-HyTuv/20261008/8JU5/575X574/IMG_4229.png") !important;
+}
+.chat-bubble-role-assistant::before {
+  width: 22px;
+  height: 17px;
+  background-image: url("https://img2.tofaka.com/autoupload/fr/ZmNc5khPpuOWmYbP1FSUf4GK-pRQVKZDlyTQMveSdN2yl5f0KlZfm6UsKj-HyTuv/20261008/vzp6/592X439/IMG_4230.png") !important;
+}
+
+/* 右上角小熊探頭裝飾[span_2](start_span)[span_2](end_span) */
+.chat-bubble-role-user::after,
+.chat-bubble-role-assistant::after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  width:  calc(328px * var(--rk-k));
+  height: calc(180px * var(--rk-k));
+  right:  calc(-92px * var(--rk-k));
+  bottom: calc(100% - 47px * var(--rk-k));
+  background-repeat: no-repeat;
+  background-size:
+    calc(2048px * var(--rk-k)) calc(2048px * var(--rk-k)),
+    calc(2048px * var(--rk-k)) calc(2048px * var(--rk-k));
+  background-position:
+    calc(-1262px * var(--rk-k)) calc(-790px * var(--rk-k)),
+    calc(-1262px * var(--rk-k)) calc(-790px * var(--rk-k));
+  pointer-events: none;
+  z-index: 5;
+}
+.chat-bubble-role-user::after {
+  background-image:
+    url("https://img2.tofaka.com/autoupload/fr/ZmNc5khPpuOWmYbP1FSUf4GK-pRQVKZDlyTQMveSdN2yl5f0KlZfm6UsKj-HyTuv/20261008/43F8/2048X2048/IMG_1212.png"),
+    url("https://img2.tofaka.com/autoupload/fr/ZmNc5khPpuOWmYbP1FSUf4GK-pRQVKZDlyTQMveSdN2yl5f0KlZfm6UsKj-HyTuv/20261008/PYGa/2048X2048/IMG_1210.png") !important;
+}
+.chat-bubble-role-assistant::after {
+  background-image:
+    url("https://img2.tofaka.com/autoupload/fr/ZmNc5khPpuOWmYbP1FSUf4GK-pRQVKZDlyTQMveSdN2yl5f0KlZfm6UsKj-HyTuv/20261008/43F8/2048X2048/IMG_1212.png"),
+    url("https://img2.tofaka.com/autoupload/fr/ZmNc5khPpuOWmYbP1FSUf4GK-pRQVKZDlyTQMveSdN2yl5f0KlZfm6UsKj-HyTuv/20261008/hkk6/2048X2048/IMG_1211.png") !important;
+}
+
+/* 圖片/表情包訊息：透明顯示，不套磨砂氣泡或熊裝飾[span_3](start_span)[span_3](end_span) */
+.chat-bubble-role-user:has(img),
+.chat-bubble-role-assistant:has(img) {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  min-width: 0;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  transform: none !important;
+}
+.chat-bubble-role-user:has(img)::after,
+.chat-bubble-role-assistant:has(img)::after,
+.chat-bubble-role-user:has(img)::before,
+.chat-bubble-role-assistant:has(img)::before {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+}
+
+/* 語音條：保持纖細[span_4](start_span)[span_4](end_span) */
+.chat-bubble-role-user:has(.voice-msg-bubble),
+.chat-bubble-role-assistant:has(.voice-msg-bubble) {
+  --rk-k: 0.11;
+  padding: 5px 12px !important;
+  min-height: 0;
+  line-height: 1;
+}
+.voice-msg-bubble {
+  background: transparent !important;
+  box-shadow: none;
+  padding: 0 !important;
+  margin: 0;
+  min-height: 0 !important;
+  height: auto !important;
+  border-radius: 16px;
+}
+.voice-msg-icon,
+.voice-msg-dur { color: var(--rk-ink) !important; }
+.voice-msg-bar { background: #9A827C !important; }
+.voice-msg-bars[data-playing] .voice-msg-bar { background: var(--rk-ink) !important; }
+
+/* =========================================================
+   ⑤ 系統提示
+   ========================================================= */
+
+.chat-sys-msg {
+  color: #8c7362 !important;
+  text-shadow: 0 1px #fffef9;
+}
+
+.chat-system-instruction-card {
+  background: linear-gradient(180deg, #ffffff 0%, #faf6e8 100%) !important;
+  border: 1px solid #dcd0b2 !important;
+  border-radius: 6px !important;
+  box-shadow: inset 0 1px 0 #ffffff, 1px 1px 3px rgba(110, 95, 75, 0.1) !important;
+}
+
+.chat-system-instruction-title { color: #5c4738 !important; }
+.chat-system-instruction-body { color: #7a6555 !important; }
+
+/* =========================================================
+   ⑥ 底部輸入欄與復古按鈕（含聚焦暖色光暈）
+   ========================================================= */
+
+.chat-input-bar {
+  background:
+    linear-gradient(
+      180deg,
+      #fcf8eb 0%,
+      #f3ebd0 46%,
+      #e8dcbc 50%,
+      #f5eedb 100%
+    ) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border-top: 2px solid #d4c3a3 !important;
+  box-shadow: inset 0 1px 0 #ffffff, 0 -3px 6px rgba(92, 71, 50, 0.1) !important;
+}
+
+.chat-input-textarea {
+  background: linear-gradient(180deg, #ffffff 0%, #fffef7 100%) !important;
+  border: 1px solid #c7b08e !important;
+  border-radius: 6px !important;
+  color: #4a3b32 !important;
+  box-shadow: inset 2px 2px 4px rgba(92, 76, 57, 0.08), 0 1px 0 #ffffff !important;
+  transition: all 0.2s ease !important;
+}
+
+.chat-input-textarea:focus {
+  outline: none !important;
+  border-color: #b58d5a !important;
+  box-shadow: inset 2px 2px 4px rgba(92, 76, 57, 0.08), 0 0 0 3px rgba(212, 163, 114, 0.3), 0 1px 0 #ffffff !important;
+}
+
+.chat-input-actions {
+  gap: 10px !important;
+  justify-content: flex-end !important;
+}
+
+.chat-input-actions button,
+.chat-input-action-btn {
+  background: linear-gradient(180deg, #fffefc 0%, #f0e4cc 100%) !important;
+  border: 1px solid #c7b08e !important;
+  border-radius: 5px !important;
+  box-shadow: inset 0 1px 0 #ffffff, 0 1px 2px rgba(92, 76, 57, 0.1) !important;
+  color: #5c4738 !important;
+  transition: all 0.1s ease;
+}
+
+.chat-input-actions button:hover,
+.chat-input-action-btn:hover {
+  background: linear-gradient(180deg, #fffefc 0%, #e2d0b0 100%) !important;
+  border-color: #b58d5a !important;
+}
+
+.chat-input-actions button:active,
+.chat-input-action-btn:active {
+  background: #e2d0b0 !important;
+  box-shadow: inset 1px 1px 2px rgba(92, 76, 57, 0.2) !important;
+  transform: translateY(1px);
+}
+
+/* =========================================================
+   ⑦ 引用、編輯框、長按選單與卡片
+   ========================================================= */
+
+.chat-quote-bar,
+.chat-inline-edit-textarea {
+  background: #fdf9ed !important;
+  border: 1px solid #d9c4a3 !important;
+  border-radius: 6px !important;
+  box-shadow: inset 1px 1px 2px rgba(92, 76, 57, 0.08) !important;
+}
+
+.ctx-menu {
+  background: #fcf7e9 !important;
+  border: 1px solid #c7b08e !important;
+  border-radius: 6px !important;
+  box-shadow: 2px 2px 5px rgba(74, 59, 44, 0.16), inset 0 1px 0 #ffffff !important;
+}
+
+.ctx-menu-btn { color: #5c4738 !important; }
+.ctx-menu-btn:hover { background: #f2dec4 !important; }
+
+.chat-media-file-card,
+.chat-red-packet-card,
+.chat-transfer-card,
+.chat-html-inline,
+.chat-music-share-card,
+.scan-pay-card {
+  border-color: #d9c4a3 !important;
+  border-radius: 6px !important;
+  box-shadow: inset 0 1px 0 #ffffff, 1px 1px 3px rgba(92, 76, 57, 0.08) !important;
+}
+
+/* =========================================================
+   ⑧ 滾動條
+   ========================================================= */
+
+.chat-room-wrapper::-webkit-scrollbar,
+.chat-room-wrapper *::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+.chat-room-wrapper::-webkit-scrollbar-track,
+.chat-room-wrapper *::-webkit-scrollbar-track {
+  background: #f2ebd9;
+  border-left: 1px solid #e0d4be;
+}
+
+.chat-room-wrapper::-webkit-scrollbar-thumb,
+.chat-room-wrapper *::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #dec39d, #bd986d);
+  border: 1px solid #9e7b53;
+  border-radius: 4px;
+}
