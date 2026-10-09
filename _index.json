@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T04:09:48.353Z",
+  "generatedAt": "2026-10-09T04:53:03.818Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -6396,8 +6396,8 @@
       "description": "不要二传呀及除Bug外的二改\n8.28修复了转账字体跟例图一样大小\n8.27更新：状态栏和部分卡片的美化比较适配主题\n重新上传了文件修复了头像框不显示\n导入到聊天主页CSS可使用\n会有一些bug的话就找小卷修复一下",
       "author": "竹叶草草",
       "avatar": "资源/线上美化/[蝴蝶结]粉波点主题/.avatar.png",
-      "ownerHash": "8a040f68caf05d1b1e5de3056e748f42220d65d67704df8798b5e1477066bcd6",
-      "updatedAt": "2026-08-28T13:22:22+08:00"
+      "ownerHash": "32009c05fc4c078f5c307c68c7b87e5feac26704ef82493fe7262a0965e41eec",
+      "updatedAt": "2026-10-09T12:51:33+08:00"
     },
     {
       "folder": "线上美化",
@@ -6435,8 +6435,8 @@
       "description": "不可二改二转\n导入聊天主页css使用\n部分卡片可能会出现遮挡头像问题\n可以选择找小卷修复一下",
       "author": "竹叶草草",
       "avatar": "资源/线上美化/[雪花]蓝色波点主题/.avatar.png",
-      "ownerHash": "8a040f68caf05d1b1e5de3056e748f42220d65d67704df8798b5e1477066bcd6",
-      "updatedAt": "2026-08-28T10:47:37+08:00"
+      "ownerHash": "32009c05fc4c078f5c307c68c7b87e5feac26704ef82493fe7262a0965e41eec",
+      "updatedAt": "2026-10-09T12:51:28+08:00"
     },
     {
       "folder": "线上美化",
@@ -7218,8 +7218,8 @@
       "description": "不可二转二改\n粉波点的改色26号就做好了一直在调整\n可能还是会有一些卡片会遮挡头像\n可以找小卷修复一下\n导入聊天主页CSS使用",
       "author": "竹叶草草",
       "avatar": "资源/线上美化/薄巧波点主题/.avatar.png",
-      "ownerHash": "8a040f68caf05d1b1e5de3056e748f42220d65d67704df8798b5e1477066bcd6",
-      "updatedAt": "2026-09-30T19:14:04+08:00"
+      "ownerHash": "32009c05fc4c078f5c307c68c7b87e5feac26704ef82493fe7262a0965e41eec",
+      "updatedAt": "2026-10-09T12:51:31+08:00"
     },
     {
       "folder": "线上美化",
